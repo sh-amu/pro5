@@ -51,6 +51,7 @@ public class ImperialCourtTest {
         int affectedRowNumber = baseDao.update(sql, empPosition, empId);
 
         System.out.println("affectedRowNumber = " + affectedRowNumber);
+        System.out.println(".....................................");
 
     }
 }
